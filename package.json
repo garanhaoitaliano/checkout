@@ -1,0 +1,19 @@
+{
+  "name": "checkout-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Checkout estilo Hotmart com painel admin e integração MundPay",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "multer": "^2.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
